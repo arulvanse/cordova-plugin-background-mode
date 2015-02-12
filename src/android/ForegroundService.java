@@ -134,7 +134,7 @@ public class ForegroundService extends Service {
         Intent intent       = context.getPackageManager()
                 .getLaunchIntentForPackage(pkgName);
 
-        Notification.Builder notification = new Notification.Builder(context)
+        NotificationCompat.Builder notification = new NotificationCompat.Builder(context)
             .setContentTitle(settings.optString("title", ""))
             .setContentText(settings.optString("text", ""))
             .setTicker(settings.optString("ticker", ""))

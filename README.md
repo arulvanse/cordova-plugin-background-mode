@@ -40,17 +40,7 @@ The plugin can either be installed from git repository, from local file system t
 From master:
 ```bash
 # ~~ from master branch ~~
-cordova plugin add https://github.com/katzer/cordova-plugin-background-mode.git
-```
-from a local folder:
-```bash
-# ~~ local folder ~~
-cordova plugin add de.appplant.cordova.plugin.background-mode --searchpath path
-```
-or to use the last stable version:
-```bash
-# ~~ stable version ~~
-cordova plugin add de.appplant.cordova.plugin.background-mode@0.6.3
+cordova plugin add https://github.com/imbxl/cordova-plugin-background-mode
 ```
 
 To remove the plug-in, run the following command:

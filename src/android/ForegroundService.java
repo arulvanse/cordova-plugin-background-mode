@@ -37,6 +37,7 @@ import android.os.Build;
 import android.os.Handler;
 import android.os.IBinder;
 import android.util.Log;
+import android.support.v4.app.NotificationCompat;
 
 /**
  * Puts the service in a foreground state, where the system considers it to be

@@ -40,7 +40,7 @@ The plugin can either be installed from git repository, from local file system t
 From master:
 ```bash
 # ~~ from master branch ~~
-cordova plugin add https://github.com/imbxl/cordova-plugin-background-mode
+cordova plugin add https://github.com/imbxl/cordova-plugin-background-mode.git
 ```
 
 To remove the plug-in, run the following command:
@@ -51,7 +51,7 @@ cordova plugin rm de.appplant.cordova.plugin.background-mode
 ### PhoneGap Build
 Add the following xml to your config.xml to always use the latest version of this plugin:
 ```xml
-<gap:plugin name="de.appplant.cordova.plugin.background-mode" version="0.6.3" />
+<gap:plugin name="de.appplant.cordova.plugin.background-mode-imbxl" version="0.6.3" />
 ```
 
 More informations can be found [here][PGB_plugin].
